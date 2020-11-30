@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body.body {
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position:center;
+
+}
+.div, .h1 {
+  background-color: rgba(100,160,255,0.4);
+  padding: 20px;
+  color: white;
+  border: 3px white solid;
+  font-family: arial;
+  font-size: 40px;
+}
+.h2 {
+  background-color: rgba(100,160,255,0.2);
+  color: white;
+  border: 2px groove white;
+  padding: 10px;
+  font-size: 30px;
+  font-family: monospace;
+}
+.nav li {
+  background-color: rgba(100,160,255,0.2);
+  color: white;
+  border: 1px white solid;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+li:hover {
+  background-color: inherit;
+}
+.a1:link {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.a1:visited {
+  color: white;
+  text-decoration: none;
+}
+.a1:hover {
+  color: skyblue;
+  text-decoration: none;
+}
